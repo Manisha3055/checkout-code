@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Options</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="product-container">
+      <h2>YAY! It's BOGO</h2>
+
+      <div class="unit-div">
+        <div class="unit-box">
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding: 20px;
+            "
+          >
+            <div class="unit-header">
+              <div>
+                <input type="radio" id="unit1" name="unit" value="1" />
+                <label for="unit1">1 Unit</label>
+                <span class="discount">10% Off</span>
+              </div>
+              <div class="description">Standard Price</div>
+            </div>
+            <div class="price-info">
+              <span class="current-price">$10.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+          </div>
+          <div class="options" id="options1">
+            <div class="option">
+              <label>#1</label>
+              <div class="select-group">
+                <div>
+                  <span class="size">Size</span>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <span class="color">Colour</span>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="option">
+              <label>#2</label>
+              <div class="select-group">
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="unit-box popular">
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding: 20px;
+            "
+          >
+            <div class="unit-header1">
+              <input type="radio" id="unit2" name="unit" value="2" />
+              <label for="unit2">2 Unit</label>
+              <span class="discount">20% Off</span>
+              <span class="popular-badge">MOST POPULAR</span>
+            </div>
+            <div class="price-info">
+              <span class="current-price">$18.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+          </div>
+
+          <div class="options" id="options2">
+      
+            <div class="option">
+              <label>#1</label>
+              <div class="select-group">
+                <div>
+                  <span class="size">Size</span>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <span class="color">Colour</span>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="option">
+              <label>#2</label>
+              <div class="select-group">
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="unit-box">
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding: 20px;
+            "
+          >
+            <div class="unit-header1">
+              <input type="radio" id="unit3" name="unit" value="3" />
+              <label for="unit3">3 Unit</label>
+              <span class="discount">30% Off</span>
+            </div>
+            <div class="price-info">
+              <span class="current-price">$24.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+          </div>
+          <div class="options" id="options3">
+            <div class="option">
+              <label>#1</label>
+              <div class="select-group">
+                <div>
+                  <span class="size">Size</span>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <span class="color">Colour</span>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="option">
+              <label>#2</label>
+              <div class="select-group">
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="free-delivery">Free Delivery</p>
+        <p class="total" id="total-price">Total: $18.00 USD</p>
+        <button class="add-to-cart">
+          <span class="plus">+</span>Add to Cart
+        </button>
+        <p class="powered-by">© Powered by Pumper</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
